@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="106.0" layoutY="40.0" prefHeight="51.0" prefWidth="300.0" style="-fx-background-color: #5e5e5e;" text="Конвертер" textAlignment="CENTER" textFill="#ebebeb" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="190.0" text="Значение в тоннах:" textAlignment="CENTER" textFill="#575757">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="ton" alignment="CENTER" layoutX="6.0" layoutY="217.0" text="0" textAlignment="CENTER" textFill="#575757">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="261.0" text="Значение в килограммах:" textAlignment="CENTER" textFill="#5e5e5e">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="kilo" alignment="CENTER" layoutX="6.0" layoutY="284.0" text="0" textAlignment="CENTER" textFill="#575757">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="6.0" layoutY="319.0" text="Значение в граммах:" textAlignment="CENTER" textFill="#575757">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="gramm" alignment="CENTER" layoutX="6.0" layoutY="347.0" text="0" textAlignment="CENTER" textFill="#575757">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="input" layoutX="6.0" layoutY="64.0" style="-fx-border-color: #5e5e5e; -fx-border-width: 1; -fx-border-style: solid;" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="6.0">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </TextField>
+      <ChoiceBox fx:id="choice" layoutX="3.0" layoutY="122.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
